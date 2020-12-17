@@ -28,6 +28,7 @@ class AbsensiController extends Controller
 
     public function index()
     {
+        asda;
         $createdata = createdata::all();
         return view('absensi.index', compact('createdata'));
     }
